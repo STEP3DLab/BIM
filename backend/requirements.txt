@@ -2,3 +2,5 @@ fastapi
 uvicorn
 open3d
 pydantic
+SQLAlchemy
+psycopg2-binary
