@@ -4,6 +4,8 @@ services:
     build: ./backend
     volumes:
       - data:/data
+    environment:
+      DATABASE_URL: postgresql://user:password@db:5432/bim
     depends_on:
       - redis
       - db
